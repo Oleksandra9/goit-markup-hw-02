@@ -1,0 +1,33 @@
+/* Основной цвет текста #757575*/
+/* Вторичній цвет текста #212121  */
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --main-background-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: -0.03em;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--secondary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-title {
+  color: var(--accent-color);
+}
