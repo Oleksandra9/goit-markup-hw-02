@@ -1,33 +1,59 @@
-/* Основной цвет текста #757575*/
-/* Вторичній цвет текста #212121  */
-
 :root {
+  --main-white-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
   --main-text-color: #757575;
   --secondary-text-color: #212121;
-  --main-background-color: #ffffff;
   --accent-color: #2196f3;
 }
 
 body {
-  background-color: var(--main-background-color);
+  background-color: var(--main-white-color);
   color: var(--main-text-color);
-  font-family: roboto, sans-serif;
-  letter-spacing: -0.03em;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-a {
+/* a {
   text-decoration: none;
+  font-style: normal;
+  color: var(--secondary-text-color);
+} */
+/* .list {
+  list-style: none;
+  color: inherit;
+} */
+/* Header */
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
+
 .list {
   list-style: none;
 }
+
 .logo {
-  color: var(--secondary-text-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--secondary-text-color);
 }
+
 .logo-title {
   color: var(--accent-color);
 }
+. {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/* .link {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--secondary-text-color);
+} */
